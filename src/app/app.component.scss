@@ -1,0 +1,61 @@
+.text-contaniner{
+  height: 70vh;
+  overflow-y: scroll;
+  padding-right: 20px;
+}
+
+
+.search-input{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+::ng-deep .highlighted-text{
+  background-color: yellow;
+  :focus{
+    border: 1px solid red;
+  }
+}
+::ng-deep .highlighted-text:focus{
+  background-color: rgb(157, 160, 5);
+
+}
+.container{
+  display: flex;
+  position: relative;
+  padding: 20px;
+  .marker{
+    position: absolute;
+
+    right: 40px;
+    width: 10px;
+    background-color: rgba(0,0,0,0.5);
+    .markersTicks{
+   position: absolute;
+  background-color: yellow;
+
+
+    width: 10px;
+    height: 2px;
+
+    }
+
+  }
+}
+.input-navigator{
+  top: -20px;
+  right: 0px;
+  position: absolute;
+}
+.nav-btns{
+  top: -20px;
+  right: 0px;
+  position: absolute;
+  display: flex;
+  .nav-btn{
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    background-color: white;
+  }
+}
+
