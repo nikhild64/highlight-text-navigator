@@ -11,8 +11,8 @@
     <div class="markersTicks" *ngFor="let m of markerTicks" [ngStyle]="{'top':m+'px'}" ></div>
     <input class="input-navigator" type="text" disabled value="{{ activeIndex + ' of '+  markerTicks.length}}" >
     <div class="nav-btns">
-      <img class="nav-btn" (click)="moveToNext()" src="../assets/down-arrow.png" alt="">
-      <img  class="nav-btn" (click)="moveToBack()"  src="../assets/up-arrow.png" alt="">
+      <img class="nav-btn" (click)="moveToNext()" src="/assets/down-arrow.png" alt="">
+      <img  class="nav-btn" (click)="moveToBack()"  src="/assets/up-arrow.png" alt="">
     </div>
 
 
